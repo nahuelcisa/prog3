@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 – Formulario Login</title>
+    <script src="./javascript/funciones.js"></script>
+</head>
+<body>
+    <h2>Login</h2>
+    <table align="center">
+        <form action="./backend/verificarUsuario.php" method="POST">
+            <tr>
+                <th style="text-align:left;padding-left:15px" colspan="2">
+                    <h4>Ingreso de credenciales</h4>
+                </th>
+            </tr>
+            <tr>
+                <td style="text-align:left;padding-left:15px" colspan="2">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left;padding-left:15px">DNI: </td>
+                <td style="text-align:left;padding-left:15px">
+                    <input type="number" name="dni" id="txtDni">
+                    <span id="spanTxtDni" style= display:none>*</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left;padding-left:15px">Apellido: </td>
+                <td style="text-align:left;padding-left:15px">
+                    <input type="text" name="apellido" id="txtApellido">
+                    <span id="spanTxtApellido" style= display:none>*</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left;padding-left:15px" colspan="2">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="reset" value="Limpiar">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="submit" onClick="AdministrarValidacionesLogin(event)" name="btnEnviar" id="btnEnviar" value="Enviar">
+                </td>
+            </tr>   
+        </form>
+    </table>
+</body>
+</html>

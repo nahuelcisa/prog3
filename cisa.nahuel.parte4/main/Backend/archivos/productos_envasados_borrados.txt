@@ -1,0 +1,4 @@
+33 - anana - chile - 842 - 483 - ../backend/productos/imagenes/anana.chile.53723.jpg
+39 - higo - Colombia - 123 - 1234 - ../backend/./productos/imagenes/39.higo.152336.jpg
+40 - frutaDragon - Brasil - 858 - 4231 - ../backend/productos/imagenes/frutaDragon.Brasil.151324.png
+41 - arandano - Brasil - 4324 - 532 - ../backend/productos/imagenes/arandano.Brasil.151412.jpg
