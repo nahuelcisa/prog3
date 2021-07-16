@@ -1,0 +1,14 @@
+{
+    "name": "znahue17/practica",
+    "authors": [
+        {
+            "name": "Nahuel Cisa",
+            "email": "nahuelcisa@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.8",
+        "slim/psr7": "^1.4",
+        "firebase/php-jwt": "^5.4"
+    }
+}

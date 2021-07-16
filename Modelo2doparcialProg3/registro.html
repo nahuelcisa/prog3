@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <title>Registro</title>
+</head>
+<body style="background-color: #262626;">
+    <div class="container ">
+        <div class="row justify-content-center mt-5">
+            <div class="row">
+                <h2 class="col-2 offset-4 text-light">LOGIN</h2>
+            </div>
+            <div class="col-12 col-lg-4 mt-2 p-4 rounded-3 " style="background-color: #383838;">
+                <form action="">
+                    <div class="mb-3">
+                        <div class="d-flex">
+                            <i class="bi bi-envelope-fill pb-1 px-2 mx-1 rounded border" style="background-color: white; font-size: 1.5rem"></i>
+                            <input type="email" class="form-control" placeholder="Correo" id="txtCorreo">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex">
+                            <i class="bi bi-key-fill pb-1 px-2 mx-1 rounded border" style="background-color: white; font-size: 1.5rem"></i>
+                            <input type="password" placeholder="Contraseña" class="form-control" id="txtClave">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex">
+                            <i class="bi bi-person-fill pb-1 px-2 mx-1 rounded border" style="background-color: white; font-size: 1.5rem"></i>
+                            <input type="text" placeholder="Nombre" class="form-control" id="txtNombre">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex">
+                            <i class="bi bi-person-fill pb-1 px-2 mx-1 rounded border" style="background-color: white; font-size: 1.5rem"></i>
+                            <input type="text" placeholder="Apellido" class="form-control" id="txtApellido">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex">
+                            <i class="bi bi-person-badge pb-1 px-2 mx-1 rounded border" style="background-color: white; font-size: 1.5rem"></i>
+                            <select id="dpPerfil" placeholder="Seleccionar perfil" class="form-select">
+                                <option>propietario</option>
+                                <option>supervisor</option>
+                                <option>empleado</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex">
+                            <i class="bi bi-camera-fill pb-1 px-2 mx-1 rounded border" style="background-color: white; font-size: 1.5rem"></i>
+                            <input type="file" class="form-control" id="foto">
+                        </div>
+                    </div>
+                    <div class="row justify-content-around mt-4">
+                        <button type="submit" id="btnEnviar" class="col-5 btn btn-primary">Enviar</button>
+                        <button type="reset" class="col-5 btn btn-warning text-light">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

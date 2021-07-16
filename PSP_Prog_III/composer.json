@@ -1,0 +1,13 @@
+{
+    "authors": [
+        {
+            "name": "Mazzucchelli Juan",
+            "email": "juani.mp1@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4",
+        "firebase/php-jwt": "^5.3"
+    }
+}
